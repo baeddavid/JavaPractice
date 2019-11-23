@@ -1,3 +1,5 @@
+package com.horstman.corejava;
+
 import java.time.*;
 
 public class Employee {
@@ -5,9 +7,9 @@ public class Employee {
     private double salary;
     private LocalDate hireDay;
 
-    public Employee(String n, double s, int year, int month, int day) {
-        name = n;
-        salary = s;
+    public Employee(String name, double salary, int year, int month, int day) {
+        this.name = name;
+        this.salary = salary;
         hireDay = LocalDate.of(year, month, day);
     }
 
