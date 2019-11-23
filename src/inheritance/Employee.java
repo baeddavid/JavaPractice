@@ -1,4 +1,4 @@
-package com.horstman.corejava;
+package inheritance;
 
 import java.time.*;
 

@@ -1,4 +1,4 @@
-package com.horstman.corejava;
+package inheritance;
 
 public class Manager extends Employee {
     private double bonus;
@@ -13,7 +13,7 @@ public class Manager extends Employee {
         return baseSalary + bonus;
     }
 
-    public void setBonus(double bonus) {
-        this.bonus = bonus;
+    public void setBonus(double b) {
+        bonus = b;
     }
 }
